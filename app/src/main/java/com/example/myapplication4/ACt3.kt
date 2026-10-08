@@ -52,3 +52,12 @@ fun AktivitasPertama(modifier: Modifier) {
                 containerColor = colorResource(id = R.color.card_0_bg)
             )
         ) {
+            Row() {
+                val gambar = painterResource(id = R.drawable.taehyung)
+                Image(
+                    painter = gambar,
+                    contentDescription = null,
+                    modifier = Modifier.size(100.dp).padding(all = 5.dp)
+                )
+
+            }
